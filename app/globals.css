@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+/* Swiper dots styling */
+.swiper-pagination-bullet {
+  background: #999;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #000;
+  width: 20px;
+  border-radius: 10px;
+}
+
+.swiper-pagination-bullet {
+  background: #999;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #000;
+  width: 20px;
+  border-radius: 10px;
+}
+
+.custom-pagination .swiper-pagination-bullet {
+  background: #999;
+  opacity: 1;
+  margin: 0 6px;
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+  background: #000;
+  width: 20px;
+  border-radius: 10px;
+}
